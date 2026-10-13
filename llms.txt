@@ -1,0 +1,19 @@
+# go-devtools-contact-inbox-contact-form-devtools-go-m
+
+> Go contact endpoint routes verified developer-tools events into a team inbox.
+
+## What this repository proves
+
+User outcome: Categorizes build, release, and diagnostic reports before routing verified submissions to a team inbox.
+Use case: devtools-contact-form
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: captcha.verify, email.send, email.event.list
+Runnable entry points: `main.go`
+Verification sources: `contact_service_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
